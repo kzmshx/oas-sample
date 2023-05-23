@@ -1,0 +1,15 @@
+{
+  "name": "user",
+  "version": "0.1.0",
+  "description": "Sample User API",
+  "main": "index.js",
+  "scripts": {
+    "build": "redocly bundle src/openapi.yaml --output index.html",
+    "preview": "redocly preview-docs src/openapi.yaml"
+  },
+  "author": "kzmshx",
+  "license": "ISC",
+  "devDependencies": {
+    "@redocly/cli": "1.0.0-beta.126"
+  }
+}
